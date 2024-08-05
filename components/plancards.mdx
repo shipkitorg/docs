@@ -37,7 +37,7 @@ title: 'Plan Cards'
 ## Props
 
 <ResponseField name="plans" type="Plan[]" required>
-  List of plans to display.
+  List of plans to display. (<a href="#plan">Plan</a>)
 </ResponseField>
 
 <ResponseField name="title" type="string">
@@ -104,7 +104,13 @@ export const plans: Record<'dev' | 'production', Plan[]> = {
 };
 ```
 
-## Plan Type
+## Types
+
+### Plan
+
+```typescript
+import type { Plan } from '~/core/plan';
+```
 
 <ResponseField name="id" type="string" required>
   Unique identifier for the plan (.eg. starter, business).

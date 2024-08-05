@@ -50,16 +50,8 @@
   "anchors": [],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "download", "cli"]
-    },
-    {
-      "group": "Astro",
-      "pages": ["astro/introduction"]
-    },
-    {
-      "group": "Next.js",
-      "pages": ["next/introduction"]
+      "group": "Quickstart",
+      "pages": ["quickstart", "download", "cli"]
     },
     {
       "group": "Components",
