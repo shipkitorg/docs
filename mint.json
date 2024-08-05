@@ -92,8 +92,7 @@
         "auth/lucia",
         "auth/supabase",
         "auth/clerk",
-        "auth/google",
-        "auth/magic-links"
+        "auth/google"
       ]
     },
     {
