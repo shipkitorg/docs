@@ -65,6 +65,55 @@
       ]
     },
     {
+      "group": "Databases",
+      "pages": [
+        "databases/introduction",
+        "databases/drizzle",
+        "databases/prisma",
+        "databases/postgresql",
+        "databases/mysql",
+        "databases/sqlite",
+        "databases/neon",
+        "databases/turso"
+      ]
+    },
+    {
+      "group": "Authentication",
+      "pages": [
+        "auth/introduction",
+        "auth/lucia",
+        "auth/supabase",
+        "auth/clerk",
+        "auth/google",
+        "auth/magic-links"
+      ]
+    },
+    {
+      "group": "Payments",
+      "pages": ["pay/introduction"]
+    },
+    {
+      "group": "Emails",
+      "pages": ["emails/introduction"]
+    },
+    {
+      "group": "Design",
+      "pages": ["design/introduction"]
+    },
+    {
+      "group": "Deploy",
+      "pages": [
+        "deploy/introduction",
+        "deploy/node",
+        "deploy/netlify",
+        "deploy/vercel"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": ["support/email"]
+    },
+    {
       "group": "Components",
       "pages": [
         "components/introduction",
