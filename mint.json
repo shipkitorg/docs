@@ -35,14 +35,6 @@
   },
   "tabs": [
     {
-      "name": "Astro",
-      "url": "astro"
-    },
-    {
-      "name": "Next.js",
-      "url": "next"
-    },
-    {
       "name": "Components",
       "url": "components"
     }
@@ -52,6 +44,25 @@
     {
       "group": "Quickstart",
       "pages": ["quickstart", "download", "cli"]
+    },
+    {
+      "group": "Astro",
+      "pages": ["astro/introduction"]
+    },
+    {
+      "group": "Next.js",
+      "pages": ["next/introduction"]
+    },
+    {
+      "group": "Frameworks",
+      "pages": [
+        "frameworks/introduction",
+        "frameworks/react",
+        "frameworks/vue",
+        "frameworks/svelte",
+        "frameworks/solid",
+        "frameworks/preact"
+      ]
     },
     {
       "group": "Components",

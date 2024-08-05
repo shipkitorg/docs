@@ -116,23 +116,23 @@ import type { Plan } from '~/core/plan';
   Unique identifier for the plan (.eg. starter, business).
 </ResponseField>
 
-<ResponseField name="name" type="string">
+<ResponseField name="name" type="string" required>
   The name of the plan.
 </ResponseField>
 
-<ResponseField name="price" type="number">
+<ResponseField name="price" type="number" required>
   The price of the plan.
 </ResponseField>
 
-<ResponseField name="priceText" type="string">
+<ResponseField name="priceText" type="string" required>
   The price of the plan as text (including the currency and term).
 </ResponseField>
 
-<ResponseField name="stripePriceId" type="string">
+<ResponseField name="stripePriceId" type="string" required>
   The Stripe price ID for the plan.
 </ResponseField>
 
-<ResponseField name="features" type="string[]">
+<ResponseField name="features" type="string[]" required>
   List of features included in the plan.
 </ResponseField>
 
