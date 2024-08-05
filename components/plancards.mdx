@@ -103,3 +103,37 @@ export const plans: Record<'dev' | 'production', Plan[]> = {
   production: [],
 };
 ```
+
+## Plan Type
+
+<ResponseField name="id" type="string" required>
+  Unique identifier for the plan (.eg. starter, business).
+</ResponseField>
+
+<ResponseField name="name" type="string">
+  The name of the plan.
+</ResponseField>
+
+<ResponseField name="price" type="number">
+  The price of the plan.
+</ResponseField>
+
+<ResponseField name="priceText" type="string">
+  The price of the plan as text (including the currency and term).
+</ResponseField>
+
+<ResponseField name="stripePriceId" type="string">
+  The Stripe price ID for the plan.
+</ResponseField>
+
+<ResponseField name="features" type="string[]">
+  List of features included in the plan.
+</ResponseField>
+
+<ResponseField name="notIncludedFeatures" type="string[]">
+  List of features not included in the plan.
+</ResponseField>
+
+<ResponseField name="isPopular" type="boolean">
+  Whether the plan should be marked as popular or not.
+</ResponseField>
