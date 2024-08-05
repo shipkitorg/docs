@@ -73,7 +73,8 @@
         "components/header",
         "components/hero",
         "components/plancards",
-        "components/statement"
+        "components/statement",
+        "components/ui"
       ]
     }
   ],
