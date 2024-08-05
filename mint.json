@@ -7,8 +7,8 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#06FFC3",
+    "primary": "#00B98D",
+    "light": "#00B98D",
     "dark": "#0D9373",
     "background": {
       "light": "#fff",
@@ -18,6 +18,10 @@
       "from": "#0D9373",
       "to": "#07C983"
     }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
   },
   "topbarLinks": [
     {
@@ -31,30 +35,35 @@
   },
   "tabs": [
     {
-      "name": "CLI",
-      "url": "cli"
+      "name": "Astro",
+      "url": "astro"
+    },
+    {
+      "name": "Next.js",
+      "url": "next"
+    },
+    {
+      "name": "Components",
+      "url": "components"
     }
   ],
   "anchors": [],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "download", "cli"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "Astro",
+      "pages": ["astro/introduction"]
     },
     {
-      "group": "ShipKit CLI",
-      "pages": ["cli/getting-started"]
+      "group": "Next.js",
+      "pages": ["next/introduction"]
+    },
+    {
+      "group": "Components",
+      "pages": ["components/introduction", "components/dashboardheader"]
     }
   ],
   "footerSocials": {

@@ -1,0 +1,40 @@
+---
+title: 'Dashboard Header'
+---
+
+<img src="/images/dashboardheader.png" alt="DashboardHeader" />
+
+<Tabs>
+  <Tab title="Astro">
+    ```tsx
+    ---
+    import { DashboardHeader } from '~/components';
+    ---
+    
+    <DashboardHeader user={Astro.locals.user} />
+    ```
+  </Tab>
+
+  <Tab title="Next.js">
+    ```tsx
+    import { DashboardHeader } from '~/components';
+    import { getCurrentUser } from '~/core/auth/server';
+
+    export default async function Page() {
+      const user = await getCurrentUser();
+
+      return <DashboardHeader user={user} />;
+    }
+    ```
+  </Tab>
+</Tabs>
+
+## Props
+
+<ResponseField name="user" type="User | null" required>
+  The current user object.
+</ResponseField>
+
+<ResponseField name="children" type="any">
+  A replacement for the avatar in the header.
+</ResponseField>
