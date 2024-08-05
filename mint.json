@@ -47,11 +47,19 @@
     },
     {
       "group": "Astro",
-      "pages": ["astro/introduction"]
+      "pages": [
+        "astro/getting-started",
+        "astro/public-pages",
+        "astro/private-pages"
+      ]
     },
     {
       "group": "Next.js",
-      "pages": ["next/introduction"]
+      "pages": [
+        "next/getting-started",
+        "next/public-pages",
+        "next/private-pages"
+      ]
     },
     {
       "group": "Frameworks",
