@@ -4,6 +4,8 @@ title: 'Dashboard Header'
 
 <img src="/images/dashboardheader.png" alt="DashboardHeader" />
 
+## Usage
+
 <Tabs>
   <Tab title="Astro">
     ```tsx
@@ -38,3 +40,16 @@ title: 'Dashboard Header'
 <ResponseField name="children" type="any">
   A replacement for the avatar in the header.
 </ResponseField>
+
+## Content
+
+To update the title in the header, edit `site.name` in `src/config/site.ts`.
+
+```typescript
+import { env } from '~/core/env';
+
+export const site = {
+  name: 'ShipKit',
+  ...
+};
+```

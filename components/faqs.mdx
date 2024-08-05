@@ -1,0 +1,44 @@
+---
+title: 'FAQs'
+---
+
+<img src="/images/faqs.png" alt="FAQs" />
+
+## Usage
+
+<Tabs>
+  <Tab title="Astro">
+    ```tsx
+    ---
+    import { FAQs } from '~/components';
+    ---
+    
+    <FAQs client:load />
+    ```
+  </Tab>
+
+  <Tab title="Next.js">
+    ```tsx
+    import { FAQs } from '~/components';
+
+    export default async function Page() {
+      return <FAQs />;
+    }
+    ```
+  </Tab>
+</Tabs>
+
+## Content
+
+To update the FAQs, edit `src/config/faq.ts`.
+
+```typescript
+export const faqs = [
+  {
+    question: 'What do I get with ShipKit?',
+    answer:
+      '- TypeScript boilerplates based on Astro and Next.js<br/>...',
+  },
+  ...
+];
+```

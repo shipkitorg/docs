@@ -63,7 +63,18 @@
     },
     {
       "group": "Components",
-      "pages": ["components/introduction", "components/dashboardheader"]
+      "pages": [
+        "components/introduction",
+        "components/dashboardheader",
+        "components/faqs",
+        "components/feature",
+        "components/featuresgrid",
+        "components/footer",
+        "components/header",
+        "components/hero",
+        "components/plancards",
+        "components/statement"
+      ]
     }
   ],
   "footerSocials": {
