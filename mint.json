@@ -26,7 +26,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@shipkit.app"
+      "url": "https://shipkit.app/contact"
     }
   ],
   "topbarCtaButton": {
