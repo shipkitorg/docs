@@ -43,7 +43,7 @@
   "navigation": [
     {
       "group": "Quickstart",
-      "pages": ["quickstart", "download", "cli"]
+      "pages": ["introduction", "download", "cli"]
     },
     {
       "group": "Astro",
