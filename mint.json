@@ -108,6 +108,14 @@
       "pages": ["design/introduction"]
     },
     {
+      "group": "Analytics",
+      "pages": [
+        "analytics/introduction",
+        "analytics/posthog",
+        "analytics/plausible"
+      ]
+    },
+    {
       "group": "Deploy",
       "pages": [
         "deploy/introduction",
